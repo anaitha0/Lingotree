@@ -1,0 +1,32 @@
+.side-card {
+    background-color: #e5eae1; /* Light green */
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height:  100px;
+  }
+
+  
+  .side-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .side-card-icon img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  
+  .side-card-title {
+    font-family: var(--nico-moji-font);
+    font-size: 28px;
+    font-weight: bold;
+    color:  var(--green-primary); 
+  }
+  

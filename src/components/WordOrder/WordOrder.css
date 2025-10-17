@@ -1,0 +1,66 @@
+.word-order-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    right: 10%;
+  }
+  
+  .english-sentence,
+  .translated-sentence,
+  .word-cards {
+    margin-bottom: 20px;
+    
+  }
+  
+  .translated-card,
+  .word-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    direction: rtl; /* Ensures right-to-left alignment */
+  }
+  
+  .word-card {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .word-card.selected {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+  }
+  
+  
+  .word-cards {
+    margin-bottom: 20px;
+     color: "#2d3a3f";
+  }
+  
+  .word-cards-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  

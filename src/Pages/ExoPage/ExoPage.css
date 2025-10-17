@@ -1,0 +1,84 @@
+
+  .exercise-container h2 {
+    font-size: 1.8rem; /* Headline font size */
+    color: #2d3a3f; /* Neutral dark color */
+    margin-bottom: 16px; /* Space below the headline */
+  }
+  
+  .exercise-container p {
+    font-size: 1rem; /* Body text font size */
+    color: #4f5b62; /* Slightly lighter color for paragraph text */
+    text-align: center; /* Centers the text inside the container */
+    margin-bottom: 24px; /* Space below the paragraph */
+  }
+  
+ 
+ 
+
+  @media (max-width: 768px) {
+    .exercise-container {
+      padding: 16px; /* Smaller padding on smaller screens */
+    }
+  
+    .choice-card {
+      width: 100%; /* Full width for smaller screens */
+      font-size: 0.9rem; /* Smaller font size for compact display */
+    }
+  }
+  .exercise-counter {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .points-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    padding: 20px 40px;
+    font-size: 50px; /* Larger font size */
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: showMessage 2s ease-in-out forwards;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  @keyframes showMessage {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.5) rotate(0deg);
+    }
+    30% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.1) rotate(10deg);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.2) rotate(-10deg);
+    }
+    70% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.1) rotate(5deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.8) rotate(0deg);
+    }
+  }
+  

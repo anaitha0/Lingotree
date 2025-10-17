@@ -1,0 +1,49 @@
+.side-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; /* Background color for the container */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    
+    margin-left: 10px;
+  }
+  
+  .cards-container {
+    width: 100%;
+  }
+  
+  .links-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: var(--nico-moji-font);
+  }
+  
+  .side-link {
+    font-family: var(--nico-moji-font);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3e823e; /* Dark green */
+    transition: color 0.2s ease;
+  }
+  
+  .side-link:hover {
+    color: #4caf50 ; /* Brighter green */
+  }
+  .side-card-title {
+    font-family: var(--nico-moji-font);
+    font-size: 28px;
+    font-weight: 600;
+    color:  var(--green-primary); 
+  }
+  .side-card-icon{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  

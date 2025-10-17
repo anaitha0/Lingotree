@@ -1,0 +1,32 @@
+.card {
+  background-color: #2d3a3f; 
+  padding: 20px;
+  height: 60px;
+  position: relative; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 20px;
+margin-top: 20px;}
+
+.card-content {
+  position: relative;
+}
+
+.unit {
+  position: absolute;
+  top: 5px; /* Adjust as needed for proper alignment */
+  right: 10px;
+  font-size: 20px;
+  color: #529d12; /* Lighter green for 'Unit1' */
+  font-family: var(--nico-moji-font);
+}
+
+.h2 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+  font-family: var(--nico-moji-font);
+  color: #529d12; /* Green color for title */
+  text-align: center; /* Ensure text is centered */
+}

@@ -1,0 +1,49 @@
+.mcq-exercise{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .choice-card {
+    background-color: #cbdcd0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2d3a3f;
+    
+  }
+  
+  /* Style when the option is selected */
+  .choice-card.selected {
+    background-color:var(--green-secondary);/* Light green background */
+    color: #3a9d23; /* Green text */
+    transform: scale(1.05); /* Slight zoom effect to emphasize selection */
+  }
+  
+  /* Optional hover effect */
+  .choice-card:hover {
+    background-color: #dcdcdc; /* Light gray background on hover */
+  }
+  .sentence{
+    font-weight: 600;
+    color: #2d3a3f;
+  }

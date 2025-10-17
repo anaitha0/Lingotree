@@ -1,0 +1,8 @@
+/* colors.css */
+:root {
+    --green-primary: rgba(76, 175, 80, 1);
+    --green-secondary: rgba(76, 175, 80, 0.5);
+    --text-primary: #333; /* Primary text color */
+    --bg-light: #f9f9f9; /* Light background */
+  }
+  

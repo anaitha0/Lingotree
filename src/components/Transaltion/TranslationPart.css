@@ -1,0 +1,61 @@
+.translation-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px;
+    background-color: var(--green-secondary);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    width: 90%;
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    margin: 20px;
+    
+  }
+  
+  .input-box textarea {
+    width: 95%;
+    height: 95%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, sans-serif;
+    white-space: normal; 
+    word-wrap: break-word;
+    overflow: auto;
+  }
+  
+  
+  .output-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 300px;
+    width: 200px;
+  }
+  
+  .translated-text {
+    width: 95%;
+    height: 95%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, sans-serif;
+    white-space: normal; 
+    word-wrap: break-word;
+    overflow: auto;
+  }
+  

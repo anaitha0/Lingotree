@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('./nicomoji/NicoMoji-Regular.ttf') format('truetype'); /* Update the file name if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Define a CSS variable for the font */
+  :root {
+    --nico-moji-font: 'Nico Moji', sans-serif;
+  }
+  

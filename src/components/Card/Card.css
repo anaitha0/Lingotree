@@ -1,0 +1,19 @@
+.card {
+  background-color: #a5d6a7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 200px;
+  margin-bottom: 10px;
+  
+  font-family: var(--nico-moji-font);
+}
+
+.card-unit {
+  font-size: 16px;
+  color: #666;
+}

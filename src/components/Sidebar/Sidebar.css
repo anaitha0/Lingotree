@@ -1,0 +1,50 @@
+.Sidebar {
+    width: 300px; 
+    height: 100vh; 
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px 0; 
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+  }
+  
+  .Head {
+    
+    flex-direction: column; /* Stack logo and text vertically */
+    align-items: center; /* Center logo and text horizontally */
+    margin-top: 10px; /* Space between the top of the sidebar and header */
+    margin-bottom: 20px; 
+    width: 80%; 
+    height: 100px; 
+    margin-right: 20px;
+    box-shadow: none;
+
+  }
+  
+  .logo {
+    width: 90%; /* Adjust logo size */
+    height: 80px; /* Maintain height */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+  
+  .Linguatree {
+    margin-top: 10px; /* Space between the logo and text */
+    color:  var(--green-primary); /* Green color */
+    font-size: 24px; /* Font size */
+    font-family: 'Nico Moji', sans-serif; /* Custom font */
+    font-weight: 400; /* Regular font weight */
+    text-align: center; /* Center the text */
+  }
+  
+  .Cards {
+    display: flex;
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center; /* Center the cards horizontally */
+    width: 100%; /* Full width for the cards */
+    padding: 10px 0; /* Padding around the cards */
+  }
+  

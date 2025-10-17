@@ -1,0 +1,42 @@
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 90%; 
+    gap: 10px; 
+    margin-left: 15px;
+  }
+  
+  .Card {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    transition: transform 0.2s ease-in-out;
+    width: 90%; 
+    cursor: pointer;
+    height: 40px;
+    flex-direction: 'row';
+   
+  }
+  
+  .Card:hover {
+    transform: scale(1.05); /* Subtle hover effect */
+  }
+  
+  .pic {
+    width: 50px; /* Adjust icon size */
+    height: 50px;
+    margin-right: 20px; 
+    margin-left: 20px;
+    margin-bottom: 25px;/* Space between icon and text */
+  }
+  
+  .CardText {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--green-primary);
+    font-family:var(--nico-moji-font) ;
+  }
+  

@@ -1,0 +1,29 @@
+.order-exercise
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    gap: 20px;
+    background-color: #ffffff;
+  }
+  
+  .question{
+    left:30px;
+    margin: 40px;
+  }
+  .title{
+    font-family: var(--nico-moji-font);
+  }

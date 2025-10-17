@@ -1,0 +1,82 @@
+
+  .Content {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .progress-container1 {
+    position: relative;
+    margin-top: 20px;
+    height:480px;
+   
+  }
+  .progress-container2 {
+    position: relative;
+    margin-top: 20px;
+    height:800px;
+   
+  }
+  .progress-container3 {
+    position: relative;
+    margin-top: 20px;
+    height:480px;
+   
+  }
+  
+  .Step {
+    margin: 10px;
+    position: absolute;
+    transform: translateX(-50%); /* Center the step horizontally */
+  }
+  .reward-card {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: #ff5c5c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .notification-card {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 1000;
+    animation: fade-in-out 3s ease forwards;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-10px);
+    }
+    10%, 90% {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
+  

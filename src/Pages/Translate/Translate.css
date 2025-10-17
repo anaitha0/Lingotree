@@ -1,0 +1,32 @@
+
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+  }
+  .back-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 26px;
+    background-color: var(--green-solid); /* Use your green color */
+    color: var(--green-secondary);/* White text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    width: 100px;
+    
+    background-color:#2d3a3f; ;
+   
+  }
+  
+  .back-button:hover {
+    background-color: var(--green-secondary); /* Slightly transparent green on hover */
+  }
+  

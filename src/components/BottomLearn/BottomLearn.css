@@ -1,0 +1,82 @@
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease, height 0.3s ease;
+    height: 100px;
+  }
+  
+  .bottom-left button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'bold';
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    margin-left: 20px;
+  }
+  
+  /* Default button colors */
+  .button {
+    background-color: #2d3a3f; /* Neutral */
+    color: #529d12;
+  }
+  
+  .button:hover {
+    background-color: #529d12;
+    color: #2d3a3f;
+  }
+  
+  /* Button styles for Excellent */
+  .button-excellent {
+    background-color: rgba(76, 175, 80, 1);
+    color: white;
+  }
+  .button-excellent:hover {
+    
+    background-color: rgba(76, 175, 80, 0.5); /* Green with opacity */
+    color: rgba(76, 175, 80, 1);
+  }
+  
+  /* Button styles for Wrong */
+  .button-wrong {
+    background-color: rgb(240, 25, 10); 
+    color: white;
+  }
+  
+  .button-wrong:hover {
+    background-color: rgba(244, 67, 54, 0.5); 
+    color: red;
+  }
+  
+  /* Icon styles */
+  .icon {
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
+  .icon-excellent {
+    color: #4caf50; /* Green for Excellent */
+  }
+  /* Right message alignment */
+  .bottom-right {
+    font-weight: bold;
+    
+  }
+  
+  /* Background for Excellent */
+  .bottom-excellent {
+    background-color: rgba(76, 175, 80, 0.5); /* Green */
+    color: white;
+  }
+  
+  /* Background for Wrong */
+  .bottom-wrong {
+    background-color: rgba(244, 67, 54, 0.4); /* Red */
+    color: white;
+  }
+  

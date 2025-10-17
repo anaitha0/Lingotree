@@ -1,0 +1,75 @@
+.Stylehead {
+    width: 25%; /* Adjusts dynamically to fit content */
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    
+  }
+  
+  .pic2 {
+    width: 25px; 
+    height: 25px;
+    object-fit: contain;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  
+  .pic3 {
+    width: 25px; 
+    height: 25px;
+    object-fit: contain;
+    margin-right: 5px;
+  }
+  
+  .trunk, .leaf {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .text-trunk, .text-leaf {
+    margin-left: 5px; /* Space between image and text */
+    font-size: 20px;
+    font-family: 'Itim', sans-serif;
+  }
+  
+  .text-trunk {
+    color: #564531; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .text-leaf {
+    color: var(--green-primary);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .profile {
+    width: 40px; /* Adjust circle size */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-primary); 
+    border-radius: 50%;
+    overflow: hidden; /* Ensures profile image fits inside circle */
+  }
+  
+  .profile-image {
+    width: 100%; /* Fit image to the circle */
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the circle */
+  }
+  
+  .profile-icon {
+    font-size: 16px; /* Placeholder icon size */
+    color: #ffffff; /* Text color for placeholder */
+    font-weight: bold;
+  }
+  

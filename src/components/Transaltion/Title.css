@@ -1,0 +1,27 @@
+.card {
+    background-color: #2d3a3f; 
+    width: 30%; 
+    padding: 20px;
+    height: 60px;
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 20px;
+  margin-top: 20px;}
+  
+  .card-content {
+    position: relative;
+  }
+  
+ 
+  
+  h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "Arial", sans-serif;
+    color: #529d12; /* Green color for title */
+    text-align: center; /* Ensure text is centered */
+  }
+  
