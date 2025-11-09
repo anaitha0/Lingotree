@@ -1,3 +1,8 @@
+**LinguoTree A Tool to Teach University Students English-Arabic and Arabic-English Translation**
+
+LinguoTree combines the best practices from existing language learning platforms with
+cutting-edge technologies to offer a unique solution for translation students. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
